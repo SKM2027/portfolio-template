@@ -33,6 +33,13 @@ export default function Profile() {
   }, []);
 
   return (
+    // <div>
+    //   <section
+    //   className = 'top'>
+    //     <h1> hello world</h1>
+        
+    //   </section>
+    //   </div>
     <section ref={sectionRef} className={styles.profile}>
       <div className={styles.container}>
         <div className={styles.content}>
@@ -53,13 +60,14 @@ export default function Profile() {
           </div>
           <div className={styles.text}>
             <h1 className={styles.title}>
-              Hi, I&apos;m <span className={styles.highlight}>First Name</span>
+              Hi, I&apos;m <span className={styles.highlight}>Shaniya Mosely</span>
             </h1>
             <div className={styles.education}>
               <p className={styles.school}>
-                <span className={styles.schoolName}>College/University</span>
-                <span className={styles.degree}>Major</span>
-                <span className={styles.minor}>Minor</span>
+                <span className={styles.schoolName}>Kennesaw State University</span>
+                <span className={styles.minor}>Double Bachelors in...</span>
+                <span className={styles.degree}>Game Design and Development</span>
+                <span className={styles.degree}>Software Engineering</span>
               </p>
             </div>
             <p className={styles.subtitle}>
